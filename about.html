@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <style>
+        body{
+          font-family: 'Roboto';
+        }
+      </style>
+
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo" style="margin-left:20px;">Anuran Barman</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="about.html">About</a></li>
+                <li><a href="badges.html">Projects</a></li>
+                <li><a href="collapsible.html">Contact</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="badges.html">Projects</a></li>
+                    <li><a href="collapsible.html">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+      <div class="col s12 m7" style="margin:20px 20px 20px 20px;">
+        
+        <div class="card medium horizontal">
+          <div class="card-image">
+            <img src="me.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>I am passionate Android Developer with 2 years of experience.I also like web development and Machine Learning.I like to work with any new technology.Apart from programming I like to watch Hollywood movies,TV Series and Animes.My fields of expertise are as following</p>
+              <div style="margin-top:30px;">
+              <div class="chip">Android SDK</div><div class="chip">Android NDK</div><div class="chip">Kotlin</div><div class="chip">Java</div><div class="chip">C</div><div class="chip">C++</div>
+              <div class="chip">Javascript</div><div class="chip">HTML</div><div class="chip">CSS</div>
+              <div class="chip">PHP</div><div class="chip">MySQL</div><div class="chip">NodeJS</div><div class="chip">MongoDB</div>
+              <div class="chip">Python</div><div class="chip">jQuery</div><div class="chip">XML</div>
+              <div class="chip">Python For Data Science</div><div class="chip">Tensorflow</div>
+            </div>
+            </div>
+            <div class="card-action">
+                <a class="waves-effect waves-light btn" target="_blank" href="resume.pdf">Download Resume</a>
+                <a class="waves-effect waves-light btn" target="_blank" href="http://www.mranuran.com/blog">Visit My Blog</a>
+                <a class="waves-effect waves-light btn" target="_blank" href="https://play.google.com/store/apps/developer?id=Anuran+Barman">Download My Apps from Playstore</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <script>
+          $(document).ready(()=>{
+            $('.button-collapse').sideNav();
+          });
+      </script>
+    </body>
+  </html>
